@@ -10,6 +10,6 @@ public class SwimCoach implements Coach{
 
     @Override
     public String getWorkOutDaily() {
-        return "WorkOutDaily Swim faster";
+        return "WorkOutDaily Swim 1000m for faster Swim";
     }
 }
