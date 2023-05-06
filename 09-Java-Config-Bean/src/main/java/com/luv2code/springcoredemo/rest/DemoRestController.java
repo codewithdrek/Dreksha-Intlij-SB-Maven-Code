@@ -12,7 +12,8 @@ public class DemoRestController {
     private Coach mycoachBean;
 
    @Autowired
-   void doSomeStuff(@Qualifier("getSwimCoach") Coach coach) {
+   //void doSomeStuff(@Qualifier("getSwimCoach") Coach coach) {
+       void doSomeStuff(@Qualifier("getCustomeSwimCoachBean") Coach coach) {
 
        //even if cricketCoach is annotated @lAzy and i am calling it with deliberately hence called
       // System.out.println("In Constructor: "+getClass().getSimpleName());
